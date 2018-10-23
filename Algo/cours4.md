@@ -28,7 +28,7 @@ Il y a 4 cas:
 
 1. si $f(n) = \mathcal{O}(n^{log_b(a) - \varepsilon})$ pour un $\varepsilon \ge 0$
 alors $T(n) = \Theta(n^{log_ba})$
-1. si $f(n) = \Theta(n^{log_b(a)})$ pour un $\varepsilon \ge 0$
+1. si $f(n) = \Theta(n^{log_b(a)})$
 alors $T(n) = \Theta(n^{log_ba}\times \log n) = \Theta(f(n)\log n)$
 1. si $f(n) = \Omega(n^{log_b(a) + \varepsilon})$ pour un $\varepsilon \ge 0$
 et de plus il existe $c \in [0, 1[$ tq $af(n/b) \leq cf(n)$ alors $T(n) = \Theta(f(n))$
